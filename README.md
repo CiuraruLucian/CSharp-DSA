@@ -21,19 +21,6 @@ This is a **work-in-progress repository** — it will be continuously updated wi
 
 ---
 
-## Example Exercise
-**Employees Array & List Exercise**  
-
-```csharp
-string[] employees = { "John Stevenson", "Jane Smith", "Tim Wilson", "Kate Stevenson", "Kate Palmer", "Tom Eastman" , "Laura Green" , "Mike Watson", "Sally Black", "Mark Ramsey" };
-List<string> employeesDynamic = new List<string>();
-
-Console.WriteLine("The first employee is " + employees[1]);
-Console.WriteLine("The second employee is " + employees[7]);
-
-employeesDynamic.Add("Lucian Ciuraru");
-Console.WriteLine("You added the employee: " + employeesDynamic[0]);
-
 ## How to Run
 **Prerequisites**
 
@@ -54,3 +41,18 @@ cd CSharp-DSA
 **Build and run the application:**
 
 dotnet run
+
+--- 
+
+## Example Exercise
+**Employees Array & List Exercise**  
+
+```csharp
+string[] employees = { "John Stevenson", "Jane Smith", "Tim Wilson", "Kate Stevenson", "Kate Palmer", "Tom Eastman" , "Laura Green" , "Mike Watson", "Sally Black", "Mark Ramsey" };
+List<string> employeesDynamic = new List<string>();
+
+Console.WriteLine("The first employee is " + employees[1]);
+Console.WriteLine("The second employee is " + employees[7]);
+
+employeesDynamic.Add("Lucian Ciuraru");
+Console.WriteLine("You added the employee: " + employeesDynamic[0]);
