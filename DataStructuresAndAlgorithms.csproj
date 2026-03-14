@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Week1\Arrays.cs" />
+    <Compile Include="Week1\LinkedList.cs" />
+    <Compile Include="Week1\List.cs" />
+    <Compile Include="Week1\Program.cs" />
+    <Compile Include="Week1\Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
